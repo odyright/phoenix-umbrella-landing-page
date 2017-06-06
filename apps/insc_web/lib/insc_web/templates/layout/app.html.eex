@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Insc!</title>
+    <link rel="stylesheet prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  </head>
+
+  <body>
+    <!-- Page preloader -->
+		<div id="hola">
+			<div id="preloader">
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+    <!-- End  preloader -->
+
+    <div class="page-wrap">
+
+      <main role="main">
+        <%= render @view_module, @view_template, assigns %>
+      </main>
+
+    </div> <!-- /container -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>
