@@ -22,7 +22,7 @@ $ sudo apt-get install esl-erlang
 ### 3. Now Install "PHOENIX Framework" [installation page](https://elixir-lang.org/install.html#installing-erlang)
 I suggest to use the new `phx.new` project generator, you can install it with this archive by doing:
 `$ mix archive.install https://github.com/phoenixframework/archives/raw/master/phx_new.ez`
-the last release is **v1.3.0-rc.2**
+the last release at this moment is **v1.3.0-rc.2** it could change in the future...
 
 ### 4. And Start the app:
 To start your new Phoenix application you have to:
