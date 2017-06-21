@@ -1,4 +1,4 @@
-# Insc.Umbrella
+ # Insc.Umbrella
 
 ### this project includes the [skylake](https://github.com/ariiiman/skylake) library == **svg morphing animation menu**
 
@@ -27,8 +27,8 @@ the last release at this moment is **v1.3.0-rc.2** it could change in the future
 ### 4. And Start the app:
 To start your new Phoenix application you have to:
 
-- Clone this repo, then rename it to `insc_umbrella`cd to the new directory (or root directory):
-  - example:you will 3 directories= 'app', 'config', and 'deps' etc. 
+- Clone this repo, then rename it to `insc_umbrella` cd  to the new directory (or root directory):
+  - example:    3 directories= 'app', 'config', and 'deps' etc. 
 - Install dependencies with `mix deps.get`
 - Start Phoenix router with `mix phx.server`
 Now you can visit `localhost:4000` from your browser.
