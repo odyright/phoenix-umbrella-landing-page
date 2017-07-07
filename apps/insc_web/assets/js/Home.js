@@ -1,5 +1,5 @@
 // import S from "skylake"
-// import HomeSticky from "./HomeSticky.js"
+// import HomeSticky from "./HomeMenu.js"
 //
 //
 // class Home {
@@ -15,7 +15,7 @@
 //
 //   init() {
 //     // let t = this
-//     this.homeSubmenu = new HomeSticky()
+//     this.homeSubmenu = new HomeMenu()
 //     this.homeSubmenu.init()
 //     this.addListeners()
 //   }
