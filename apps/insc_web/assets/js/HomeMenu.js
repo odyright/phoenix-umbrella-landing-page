@@ -1,6 +1,6 @@
 // import S from "skylake"
 //
-// class HomeSticky {
+// class HomeMenu {
 //   constructor() {
 //     // console.log("G")
 //     // console.log("Entrypoint", S)
@@ -107,7 +107,7 @@
 //   }
 // }
 //
-// let homesticky = new HomeSticky()
-// homesticky.init()
+// let homesvg = new HomeMenu()
+// homesvg.init()
 // // (_ => new HomeSticky())()
 // export default HomeSticky
