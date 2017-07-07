@@ -36,7 +36,7 @@ defmodule Insc.Web.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_insc_web_key",
-    signing_salt: "wdFetsN+"
+    signing_salt: "FPtmDP4v"
 
   plug Insc.Web.Router
 

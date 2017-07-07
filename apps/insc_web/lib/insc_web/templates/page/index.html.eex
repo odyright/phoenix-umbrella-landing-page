@@ -10,7 +10,7 @@
             <div id="nav">
               <div id="nav-left">
                 <div class="nav-link-wrap">
-                  <a class="nav-link oh" href="/about">
+                  <a class="nav-link oh" href="#">
                       ABOUT
                       <span class="nav-link-line">
                           <span class="nav-link-line-left">
@@ -24,7 +24,7 @@
                 </div>
                 <div id="nav-link-submenu" class="nav-link-wrap">
                   <div class="nav-link oh">
-                    WORK
+                    INSTITUTIONS
                     <span class="nav-link-line">
                       <span class="nav-link-line-left">
                           <span class="nav-link-line-color"></span>
@@ -38,36 +38,36 @@
                   <div id="nav-submenu-extend-bottom">
                     <div id="nav-submenu-wrap">
                       <div id="nav-submenu">
-                        <a class="nav-submenu-link" href="/my-work">
+                        <a class="nav-submenu-link" href="#">
                           <span class="nav-submenu-link-no-wrap oh">
                             <span class="nav-submenu-link-no">01</span>
                           </span>
                           <span class="nav-submenu-link-title-wrap oh">
-                            <span class="nav-submenu-link-title">MY WORK</span>
+                            <span class="nav-submenu-link-title">UFRs</span>
                           </span>
                         </a>
-                        <a class="nav-submenu-link" href="/how-i-work">
+                        <a class="nav-submenu-link" href="#">
                           <span class="nav-submenu-link-no-wrap oh">
                             <span class="nav-submenu-link-no">02</span>
                           </span>
                           <span class="nav-submenu-link-title-wrap oh">
-                            <span class="nav-submenu-link-title">HOW I WORK</span>
+                            <span class="nav-submenu-link-title">CMAMCI</span>
                           </span>
                         </a>
-                        <a class="nav-submenu-link" href="/working-with-buyers">
+                        <a class="nav-submenu-link" href="#">
                           <span class="nav-submenu-link-no-wrap oh">
                             <span class="nav-submenu-link-no">03</span>
                           </span>
                           <span class="nav-submenu-link-title-wrap oh">
-                            <span class="nav-submenu-link-title">WORKING WITH BUYERS</span>
+                            <span class="nav-submenu-link-title">ISTHA</span>
                           </span>
                         </a>
-                        <a class="nav-submenu-link" href="/working-with-investors">
+                        <a class="nav-submenu-link" href="#">
                           <span class="nav-submenu-link-no-wrap oh">
                             <span class="nav-submenu-link-no">04</span>
                           </span>
                           <span class="nav-submenu-link-title-wrap oh">
-                            <span class="nav-submenu-link-title">WORKING WITH INVESTORS</span>
+                            <span class="nav-submenu-link-title">BIBLIOTHEQUES</span>
                           </span>
                         </a>
                       </div>
@@ -76,8 +76,8 @@
                 </div>
               </div>
               <div id="nav-right">
-                <div class="nav-link-wrap"><a class="nav-link oh" href="/blog">BLOG<span class="nav-link-line"><span class="nav-link-line-left"><span class="nav-link-line-color"></span></span><span class="nav-link-line-right"><span class="nav-link-line-color"></span></span></span></a></div>
-                <div class="nav-link-wrap"><a class="nav-link oh" href="/contact">CONTACT<span class="nav-link-line"><span class="nav-link-line-left"><span class="nav-link-line-color"></span></span><span class="nav-link-line-right"><span class="nav-link-line-color"></span></span></span></a></div>
+                <div class="nav-link-wrap"><a class="nav-link oh" href="#">BLOG<span class="nav-link-line"><span class="nav-link-line-left"><span class="nav-link-line-color"></span></span><span class="nav-link-line-right"><span class="nav-link-line-color"></span></span></span></a></div>
+                <div class="nav-link-wrap"><a class="nav-link oh" href="#">CONTACT<span class="nav-link-line"><span class="nav-link-line-left"><span class="nav-link-line-color"></span></span><span class="nav-link-line-right"><span class="nav-link-line-color"></span></span></span></a></div>
               </div>
             </div>
             <div id="nav-center"><a class="nav-link" href="/">Insc. UMECI</a></div>

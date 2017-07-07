@@ -13,7 +13,7 @@ defmodule Insc.Application do
     import Supervisor.Spec, warn: false
 
     Supervisor.start_link([
-      worker(Insc.Repo, []),
+      supervisor(Insc.Repo, []),
     ], strategy: :one_for_one, name: Insc.Supervisor)
   end
 end

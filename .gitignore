@@ -3,13 +3,3 @@
 /deps
 erl_crash.dump
 *.ez
-
-*.xml
-
-apps/insc_web/assets/js/morph.js
-
-.vscode/launch.json
-
-apps/insc_web/assets/js/morph.js
-
-apps/insc_web/assets/js/morph.js

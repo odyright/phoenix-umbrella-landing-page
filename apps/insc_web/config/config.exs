@@ -13,7 +13,7 @@ config :insc_web,
 # Configures the endpoint
 config :insc_web, Insc.Web.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "hQxAXrx1veT+oga+JCeyIPd5y/3J0lj/5xhSgNp5lMBeYlOCPqSFvEfayestn2ap",
+  secret_key_base: "X/NVwUeWRoWPRv+eOrL/xdWGjxoPYePFsqbl93sBf3cnG7plmYMeFHPnlEV6uLtl",
   render_errors: [view: Insc.Web.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Insc.Web.PubSub,
            adapter: Phoenix.PubSub.PG2]
@@ -22,6 +22,9 @@ config :insc_web, Insc.Web.Endpoint,
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
   metadata: [:request_id]
+
+config :insc_web, :generators,
+  context_app: :insc
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
