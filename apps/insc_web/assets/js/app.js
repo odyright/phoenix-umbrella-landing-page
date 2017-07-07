@@ -26,7 +26,7 @@ import "./spinVelocity.js"
 console.log(S)
 
 
-class HomeSticky {
+class HomeMenu {
   constructor() {
     // console.log("G")
     // console.log("Entrypoint", S)
@@ -39,7 +39,7 @@ class HomeSticky {
     this.listeners("add")
   }
   listeners(t) {
-    // console.log(homesticky.listeners)
+    // console.log(homesvg.listeners)
     S.Listen("#nav-link-submenu", t, "mouseenter", this.menuOpen)
     S.Listen("#nav-link-submenu", t, "mouseleave", this.menuClose)
   }
@@ -125,7 +125,7 @@ class HomeSticky {
   }
 
   destroy(t) {
-    // console.log(homesticky.destroy)
+    // console.log(homesvg.destroy)
     this.listeners("remove")
     this.morphAnimation && this.morphAnimation.pause()
     this.morph1Animation && this.morph1Animation.pause()
@@ -135,7 +135,7 @@ class HomeSticky {
 }
 
 
-let homesticky = new HomeSticky()
-homesticky.init()
-// (_ => new HomeSticky())()
-export default HomeSticky
+let homesvg = new HomeMenu()
+homesvg.init()
+// (_ => new HomeMenu())()
+export default HomeMenu
